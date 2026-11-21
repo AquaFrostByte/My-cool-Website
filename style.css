@@ -15,9 +15,21 @@
     position:fixed;
     size: 400%;
 }
+
 /*Display flex for making the dsi icons actually behave like blocks*/
 /*And i fixed the position as the icons are the most important part of this linktree website*/
 /*I really like vh */
+
+.bottombuttons a {
+    opacity: 0;
+}
+
+.title {
+    font-weight: bold;
+    color: purple;
+
+}
+
 
 #yt {
     width: 7vh;

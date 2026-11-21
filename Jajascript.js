@@ -13,6 +13,22 @@ const mondoImages = [
     "Mondos/mondo4.gif",
 
 ]
-
 const mondoImg = document.getElementById("mondoImage");
 mondoImg.src = mondoImages[Math.floor(Math.random() * mondoImages.length)];
+
+
+const swoosh = anime.animate;
+const titleswoosh = anime.animate;
+
+swoosh(".bottombuttons a", {
+    translateY: ["12vh", 0],
+    duration: 700,
+    opacity: [0, 1],
+    delay: anime.stagger(250)
+});
+titleswoosh(".title", {
+    translateY: ["-10vh", 0],
+    duration: 1000,
+    opacity: [0, 1],
+
+});
