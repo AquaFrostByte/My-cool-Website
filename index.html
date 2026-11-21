@@ -1,40 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Mondo's little blog</title>
     <script src="Jajascript.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
     
+    <header>
+        <img src="Icons/Mondo-dsi-name.png" class="topleft">
     </header>
 
     <main>
-    
-    <h1>Mondo.idkyet</h1>
-    <div class="blog">
-        <button onclick="blogWechsler()">Switch</button>
+    <h1>mondo2123.com</h1>
 
-        <section id="blogPage">
-            <h2>Testing Blog</h2>
-            <p>
-                The DSi was cool <br>
-                But I use my 3DS more often nowadays
-            </p>
-        </section>
-        
-        <section id="secondPage" hidden>
-            <h2>Testing Second Page</h2>
-            <p>
-                I also modded a psp <br>
-                Playing ps1 games on it is fun
-            </p>
-        </section>
+    <div>
+        <div class="nextPage">Latest video:</div>
+        <iframe 
+            src="https://www.youtube-nocookie.com/embed/uGUGesWz3fo?si=fwKmIOZVOjjx9fxF" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" >
+        </iframe>
     </div>
 
     <div>
         <img src="Mondos/mondo1.png" id="mondoImage" class="mondos">
     </div>
+
+    <div class="doodle-title">
+        <div class="nextPage">Random latest Doodle:</div>
+        <img src="Icons/doodle.png" class="doodle">
+    </div>
+
+    <div class="blog">
+        <button  onclick="blogWechsler()">Switch</button>
+
+        <section id="blogPage">
+            <h2>Welcome!</h2>
+            <p>
+                The DSi was cool <br>
+                But I use my 3DS more often nowadays <br>
+                I tried fixing my DSi in order to play my DS games in a native resolution. <br>
+                However I don't have a soldering iron :/<br>
+            </p>
+        </section>
+        
+        <section id="secondPage" hidden>
+            <h2>Blog 21/11/26</h2>
+            <p>
+                This is the first blogpost on my dsi themed website :D<br>
+                The DSi was cool, but I use my 3DS more often nowadays <br>
+                I tried fixing my DSi in order to play my DS games at native resolution. <br>
+                However I don't have a soldering iron :/<br>
+                I also modded a psp. <br>
+                Playing ps1 games on it is fun :)<br>
+                So far I played THPS 2, Silent Hill, jojos, parappa and the lain game<br>
+                And a lot of Tony Hawk Underground 2 remix.
+                
+            </p>
+        </section>
+    </div>
+
+
+
+
 
     </main>
     <!-- Bottom Dsi Buttons in a footer -->
@@ -42,18 +72,20 @@
         <a href="https://www.instagram.com/mondo.2123/">
             <img id="insta" src="Icons/unselected/insta-box-unselected.png">
         </a>
+
         <a href="https://steamcommunity.com/id/mondo2123">
             <img id="steam" src="Icons/unselected/steam-box-unselected.png">
         </a>
-            <a href="https://x.com/Mondo_2123">
+
+        <a href="https://x.com/Mondo_2123">
             <img id="twt" src="Icons/unselected/twitter-box-unselected.png">
         </a>
-        </a>
-            <a href="https://www.youtube.com/@mondo.2123">
+
+        <a href="https://www.youtube.com/@mondo.2123">
             <img id="yt" src="Icons/unselected/yt-box-unselected.png">
         </a>
-        </a>
-            <a href="https://www.last.fm/user/Mondo2123">
+
+        <a href="https://www.last.fm/user/Mondo2123">
             <img id="fm" src="Icons/unselected/fm-box-unselected.png">
         </a>
     </footer>

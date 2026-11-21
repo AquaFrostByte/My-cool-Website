@@ -8,7 +8,9 @@ function blogWechsler() {
 
 const mondoImages = [ 
     "Mondos/mondo1.png",
-    "Mondos/mondo2.png",
+    "Mondos/mondo2.gif",
+    "Mondos/mondo3.gif",
+    "Mondos/mondo4.gif",
 
 ]
 
